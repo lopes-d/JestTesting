@@ -10,10 +10,6 @@ beforeEach(() => {
   wrapped = shallow(<App />);
  });
 it('shows Comment Box', () => { 
-  // const div = document.createElement('div');
-  // ReactDOM.render(<App />, div);
-  // expect(div.innerHTML).toContain('Comment Box!');
-  // ReactDOM.unmountComponentAtNode(div);
   expect(wrapped.find(CommentBox).length).toEqual(1);
 
 });

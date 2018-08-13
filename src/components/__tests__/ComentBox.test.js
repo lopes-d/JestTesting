@@ -38,7 +38,7 @@ describe('the text area', () => {
 
   });
 
-  it('has a form that ca submit', () => {
+  it('when for is submitted, text area gets clear //has a form that can submit', () => {
     wrapped.find('form').simulate('submit');
     wrapped.update();
 
